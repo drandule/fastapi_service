@@ -9,4 +9,4 @@ def root():
 
 @app.get("/helth")
 def helth():
-    return {'status' : 'unknown'}
+    return {'status' : False}
